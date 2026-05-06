@@ -1,5 +1,5 @@
 # Use the official Ubuntu 24.04 as a base image
-FROM ubuntu:24.04 AS base
+FROM ubuntu:26.04 AS base
 
 # Set environment variables to avoid interaction during package installation
 ENV DEBIAN_FRONTEND=noninteractive
